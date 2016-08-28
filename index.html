@@ -3,53 +3,47 @@
     <head>
         <meta charset="utf-8">
         <title>Rostyslav Levkiv | personal site</title>
+        <link rel="stylesheet" href="css/index.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="icon" href="file:///G:/SoftServe/HTML/site/favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <section id="main">
-            <header>
-                <p>
-                    <img src="images/logo.jpg" alt="r.levkiv_logo"/>
-                </p>
-                <h1>Rostyslav Levkiv</h1>
-                <p>Web Developer</p>
-            </header>
-            <footer>
-                <ul>
-                    <li>
-                        <a href="#">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="#">Google+</a>
-                    </li>
-                    <li>
-                        <a href="#">Linkedin</a>
-                    </li>
-                </ul>
-            </footer>
-        </section>
-        <section>
-            <h2>About Me</h2>
-            <ul>
-                <li>text</li>
-                <li>text</li>
-                <li>text</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Portfolio</h2>
-            <ul>
+        <header class="header">
+            <span class="logo">
+                <img class="logo" src="images/logo.jpg" alt="Rostyslav Levkiv"/>
+            </span>
+            <h1>Rostyslav Levkiv</h1>
+            <p>Web Developer</p>
+            <ul id="social-icons">
                 <li>
-                    <img src="images/project1.jpg" alt="project1_preview"/>
+                    <a href="https://www.facebook.com/rostyk.levkiv" target="_blank" class="icon-facebook2"></a>
                 </li>
                 <li>
-                    <img src="images/project2.jpg" alt="project2_preview"/>
+                    <a href="https://plus.google.com/117173885779151996768" target="_blank" class="icon-google-plus2"></a>
                 </li>
                 <li>
-                    <img src="images/project3.jpg" alt="project3_preview"/>
+                    <a href="https://www.linkedin.com/in/rostyslav-levkiv-663405b8" target="_blank" class="icon-linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/rlevkiv1" target="_blank" class="icon-github"></a>
                 </li>
             </ul>
-        </section>
-        <section>
+            <a href="#" class="responcive-menu">
+                <i id="icon" data-bg="rgb(235, 189, 47)" class="marka marka-set marka-icon-bars " data-icon="bars" data-color="#FFFFFF" style="width:25px; height:25px;">
+                    <i style="background-color:#FFFFFF"></i>
+                    <i style="background-color:#FFFFFF"></i>
+                    <i style="background-color:#FFFFFF"></i>
+                </i>
+            </a>
+            <!--<nav>
+				<ul class="nav">
+					<li><a href="#about">Abuut</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>-->
+        </header>
+        <!--
             <h2>Contact Me</h2>
             <form action="https://formspree.io/rostyklevkiv@gmail.com" method="POST">
                 <label>Name:</label>
@@ -67,11 +61,41 @@
                 <br>
                 <input type="submit" name="send" value="Send">
             </form>
-        </section>
-        <footer id="footer">
+-->
+        <div class="wrapper">
+            <article class="article article -1">
+                <a id="about">
+                    <h2>About Me</h2>
+                </a>
+                <ul>
+                    <li>text</li>
+                    <li>text</li>
+                    <li>text</li>
+                </ul>
+            </article>
+            <article class="article article -2">
+                <a id="portfolio">
+                    <h2>Portfolio</h2>
+                </a>
+                <!--
             <ul>
-                <li>&copy;2016</li>
+                <li>
+                    <img src="images/s1.png" alt="project1_preview"/>
+                </li>
+                <li>
+                    <img src="images/s2.png" alt="project2_preview"/>
+                </li>
+                <li>
+                    <img src="images/s3.png" alt="project3_preview"/>
+                </li>
             </ul>
+-->
+            </article>
+        </div>
+        <footer class="footer ">
+            <div class="container text-center ">
+                <small class="copyright ">Copyright 2016</small>
+            </div>
         </footer>
     </body>
 </html>
