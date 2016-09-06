@@ -35,7 +35,8 @@
                     <i style="background-color:#FFFFFF"></i>
                 </i>
             </a>
-            <!--
+            <button class="button"><span>Contact </span></button>
+    <!--
             <nav>
 				<ul class="nav">
 					<li><a href="#about">Abuut</a></li>
@@ -43,65 +44,84 @@
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
-			-->
+	-->
         </header>
-        <div class="wrapper">
-            <article class="main">
-                <h2>About</h2>
-            </article>
-            <aside class="aside aside-1">Map</aside>
-            <aside class="aside aside-2">
-                <form id="contact" action="https://formspree.io/rostyklevkiv@gmail.com" method="post">
-                    <h3>Contact</h3>
-                    <fieldset>
-                        <input placeholder="Your name" type="text" tabindex="1" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset>
-                        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                    </fieldset>
-                </form>
-            </aside>
-        </div>
-        <!--
+    <!--
         <div class="wrapper">
             <article class="article article -1">
                 <a id="about">
                     <h2>About Me</h2>
                 </a>
-                <ul>
-                    <li>text</li>
-                    <li>text</li>
-                    <li>text</li>
-                </ul>
+    -->
+        <div class="wrapper">
+            <article class="main">
+                <h2>About</h2>
+                <h3>Bio</h3>
+                <p>I develop websites: I write HTML, CSS and Javascript to make your website come alive. I also work with various CMS' to give you full control over your site.</p>
+                <p>experience</p>
+                <h3>Skills</h3>
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">80%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="50%">
+                    <div class="skillbar-title">
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">50%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">40%</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="90%">
+                    <div class="skillbar-title">
+                        <span>SEO</span>
+                    </div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent">90%</div>
+                </div>
+                <h3>My works</h3>
             </article>
-            <article class="article article -2">
-                <a id="portfolio">
-                    <h2>Portfolio</h2>
-                </a>
-            <ul>
-                <li>
-                    <img src="images/s1.png" alt="project1_preview"/>
-                </li>
-                <li>
-                    <img src="images/s2.png" alt="project2_preview"/>
-                </li>
-                <li>
-                    <img src="images/s3.png" alt="project3_preview"/>
-                </li>
-            </ul>
-            </article>
+            <aside class="aside aside-1">
+                <div class="contact-info">
+                    <div class="mail">
+                        <a href="mailto:info@iamrakesh.com" title="rostyklevkiv@gmail.com">rostyklevkiv@gmail.com</a>
+                    </div>
+                    <div class="tel">+300000000000
+                    </div>
+                    <div class="skype">rostyk_levkiv</div>
+                </div>
+            </aside>
+            <aside class="aside aside-2">
+                <form id="contact">
+                    <h3>Get In Touch</h3>
+                    <p id="thanks"></p>
+                    <label for="name"></label>
+                    <input placeholder="Your name" type="text" id="name" tabindex="1" required>
+                    <label for="email"></label>
+                    <input placeholder="Your Email Address" type="email" id="email" tabindex="2" required>
+                    <label for="message"></label>
+                    <textarea placeholder="Type your Message Here...." id="message" tabindex="3" required></textarea>
+                    <button name="submit" type="submit" id="btn-send" data-submit="...Sending">Submit</button>
+                </form>
+            </aside>
         </div>
-        -->
+        <!--
+       -->
         <footer class="footer ">
             <div class="container text-center ">
-                <small class="copyright ">Copyright 2016</small>
+                <small class="copyright ">© 2016 Rostyslav Levkiv</small>
             </div>
         </footer>
+        <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
