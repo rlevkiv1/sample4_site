@@ -16,7 +16,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    background: url(../images/overlay.png) repeat 0 0 fixed, url(../images/background.jpg) no-repeat center -80px fixed #194e87;
+    background: url(../images/overlay.png) repeat 0 0 fixed, url(../images/background.jpg) no-repeat center -80px fixed #ffffff;
     /*background: #08a093;*/
     text-align: center;
     padding: 100px 0px;
