@@ -33,7 +33,7 @@ body {
 }
 
 .header h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 4em;
     text-transform: capitalize;
     color: cornsilk;
@@ -41,14 +41,13 @@ body {
 }
 
 .header span {
-    font-family: 'Montserrat', sans-serif;
-    color: #00cfbd;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     margin-top: 30px;
 }
 
 .header p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.3em;
     color: cornsilk;
     padding: 2px 0px 36px 0px;
@@ -159,7 +158,7 @@ body {
 
 /*--contact-other--*/
 #contact-other a, #contact-other li {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: cornsilk;
     text-decoration: none;
@@ -267,7 +266,7 @@ body {
     line-height: 1.6;
     color: cornsilk;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer a {
@@ -291,11 +290,11 @@ body {
     display: block;
     font-size: 30px;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #contact p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: tomato;
     padding: 10px;
 }
@@ -338,7 +337,7 @@ fieldset {
     margin: 0 0 5px;
     height: 30px;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     border-radius: 5px;
 }
@@ -450,14 +449,14 @@ fieldset {
 
 .flex-container h2 {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: #152839;
     padding: 20px 0px 18px 0px;
 }
 
 .flex-container p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
@@ -526,7 +525,7 @@ fieldset {
     -moz-border-radius-bottomleft: 3px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .skillbar-bar {
@@ -543,7 +542,7 @@ fieldset {
     right: 10px;
     top: 0;
     font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 35px;
     line-height: 27px;
     color: #000000
@@ -555,7 +554,7 @@ fieldset {
     background-color: #fff8dc;
     border: none;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
     padding: 10px;
