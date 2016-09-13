@@ -381,7 +381,7 @@ fieldset {
         width: 70%;
         border: none;
         background: cornsilk;
-        color: #000;
+        color: #194e87;
         margin: 0 0 5px;
         height: 30px;
         font-size: 18px;
@@ -546,7 +546,7 @@ fieldset {
     font-family: 'Montserrat', sans-serif;
     height: 35px;
     line-height: 27px;
-    color: #152839;
+    color: #000000
 }
 
 /*--button--*/
