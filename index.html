@@ -34,42 +34,50 @@
         </header>
         <div class="wrapper">
             <article class="main">
-                <h2>About</h2>
-                <h3>Bio</h3>
-                <p>Hi. I'm Rostyslav. Front-End Developer and SEO Specialist.</p>
-                <p>I write HTML, CSS and Javascript to make your website come alive.</p>
-                <p>I also work with various CMS' to give you full control over your site.</p>
-                <p>experience</p>
-                <h3>Skills</h3>
-                <div class="skillbar clearfix " data-percent="80%">
-                    <div class="skillbar-title">
-                        <span>HTML5</span>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">80%</div>
-                </div>
-                <div class="skillbar clearfix " data-percent="50%">
-                    <div class="skillbar-title">
-                        <span>CSS3</span>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">50%</div>
-                </div>
-                <div class="skillbar clearfix " data-percent="40%">
-                    <div class="skillbar-title">
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">40%</div>
-                </div>
-                <div class="skillbar clearfix " data-percent="90%">
-                    <div class="skillbar-title">
-                        <span>SEO</span>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">90%</div>
-                </div>
-                <h3>My works</h3>
+                <ul class="flex-container">
+                    <li class="flex-item">
+                        <h2 id="about-h2"><i class="icon3-user-tie"></i> About Me</h2>
+                        <p>Hi. I'm Rostyslav. Front-End Developer and SEO Specialist. I write HTML, CSS and Javascript to make your website come alive. I also work with various CMS' to give you full control over your site. I'm happy to take on any project so just get in touch!</p>
+                    </li>
+                    <li class="flex-item">
+                        <h2><i class="icon3-embed2"></i> Skills</h2>
+                        <div class="skillbar clearfix " data-percent="80%">
+                            <div class="skillbar-title">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">80%</div>
+                        </div>
+                        <div class="skillbar clearfix " data-percent="50%">
+                            <div class="skillbar-title">
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">50%</div>
+                        </div>
+                        <div class="skillbar clearfix " data-percent="40%">
+                            <div class="skillbar-title">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">40%</div>
+                        </div>
+                        <div class="skillbar clearfix " data-percent="85%">
+                            <div class="skillbar-title">
+                                <span>SEO</span>
+                            </div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">85%</div>
+                        </div>
+                        <div class="skillbar clearfix " data-percent="90%">
+                            <div class="skillbar-title">
+                                <span>WordPress</span>
+                            </div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">90%</div>
+                        </div>
+                    </li>
+                </ul>
             </article>
             <aside class="aside aside-1">
                 <div id="map"></div>
@@ -88,6 +96,19 @@
                     <textarea placeholder="Type your Message Here...." id="message" tabindex="3" required></textarea>
                     <button name="submit" type="submit" id="btn-send" data-submit="...Sending">Submit</button>
                 </form>
+                <div id="contact-other-block">
+                    <ul id="contact-other">
+                        <li>
+                            <i class="icon2-skype"></i>
+                            rostyk_levkiv
+                        </li>
+                        <li></li>
+                        <li>
+                            <i class="icon2-mail"></i>
+                            <a href="mailto:rostyklevkiv@gmail.com" title="rostyklevkiv@gmail.com">rostyklevkiv@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
             </aside>
         </div>
         <!--
@@ -99,6 +120,7 @@
         </footer>
         <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVgZfuPTDcyAbhsDCg8qIA1egCCmpThKo&callback=initMap"></script>
     </body>
 </html>
