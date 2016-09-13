@@ -6,7 +6,7 @@
 
 body {
     max-width: 1366px;
-   /*-- min-width: 260px; --*/
+    /*-- min-width: 260px; --*/
     background-color: white;
     margin: 0 auto;
 }
@@ -29,7 +29,7 @@ body {
     padding: 3px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-     border-radius: 50%;
+    border-radius: 50%;
 }
 
 .header h1 {
@@ -67,7 +67,6 @@ body {
     -moz-transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
-    
 }
 
 .icon-google-plus2:hover {
@@ -115,37 +114,47 @@ body {
 }
 
 .icon-arrow-up:before {
-  content: "\ea32";
+    content: "\ea32";
 }
+
 .icon-mail:before {
-  content: "\ea83";
+    content: "\ea83";
 }
+
 .icon-google-plus:before {
-  content: "\ea8b";
+    content: "\ea8b";
 }
+
 .icon-google-plus2:before {
-  content: "\ea8c";
+    content: "\ea8c";
 }
+
 .icon-facebook:before {
-  content: "\ea90";
+    content: "\ea90";
 }
+
 .icon-facebook2:before {
-  content: "\ea91";
+    content: "\ea91";
 }
+
 .icon-youtube:before {
-  content: "\ea9d";
+    content: "\ea9d";
 }
+
 .icon-github:before {
-  content: "\eab0";
+    content: "\eab0";
 }
+
 .icon-skype:before {
-  content: "\eac5";
+    content: "\eac5";
 }
+
 .icon-linkedin:before {
-  content: "\eac9";
+    content: "\eac9";
 }
+
 .icon-linkedin2:before {
-  content: "\eaca";
+    content: "\eaca";
 }
 
 /*--contact-other--*/
@@ -157,11 +166,13 @@ body {
     display: inline-block;
     text-align: center;
 }
+
 #contact-other-block {
     text-align: center;
     line-height: 30px;
     width: 92%;
 }
+
 /*--contact-other-icons--*/
 [class^="icon2-"], [class*=" icon2-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
@@ -177,13 +188,15 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .icon2-mail:before {
-  content: "\ea83";
-  text-align: center;
+    content: "\ea83";
+    text-align: center;
 }
+
 .icon2-skype:before {
-  content: "\eac5";
-  text-align: center;
+    content: "\eac5";
+    text-align: center;
 }
 
 /*--about-icons--*/
@@ -204,32 +217,41 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .icon3-address-book:before {
-  content: "\e944";
+    content: "\e944";
 }
+
 .icon3-user:before {
-  content: "\e971";
+    content: "\e971";
 }
+
 .icon3-user-tie:before {
-  content: "\e976";
+    content: "\e976";
 }
+
 .icon3-eject:before {
-  content: "\ea25";
+    content: "\ea25";
 }
+
 .icon3-arrow-up:before {
-  content: "\ea32";
+    content: "\ea32";
 }
+
 .icon3-new-tab:before {
-  content: "\ea7e";
+    content: "\ea7e";
 }
+
 .icon3-embed2:before {
-  content: "\ea80";
+    content: "\ea80";
 }
+
 .icon3-telegram:before {
-  content: "\ea95";
+    content: "\ea95";
 }
+
 .icon3-youtube:before {
-  content: "\ea9d";
+    content: "\ea9d";
 }
 
 /*--footer--*/
@@ -412,20 +434,19 @@ fieldset {
 }
 
 /*--flax-box-main--*/
-@import "compass/css3";
-
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+@import "compass/css3"; .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 }
+
 .flex-container h2 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -433,22 +454,25 @@ fieldset {
     color: #152839;
     padding: 20px 0px 18px 0px;
 }
+
 .flex-container p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+
 .flex-item {
-  background: #ffffff;
-  padding: 5px;
-  width: 48%;
-/*--text-align: center;--*/
+    background: #ffffff;
+    padding: 5px;
+    width: 48%;
+    /*--text-align: center;--*/
 }
+
 @media all and (max-width: 800px) {
-  .flex-item {
-  background: #ffffff;
-  padding: 5px;
-  width: 100%;
-}
+    .flex-item {
+        background: #ffffff;
+        padding: 5px;
+        width: 100%;
+    }
 }
 
 /*--skills--*/
